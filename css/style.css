@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.t-ctr {
+    text-align: center;
+}
+
+.t-wht {
+    color: #fff;
+}
+
+.hdr-dd23t {
+    background-color: #992626
+}
+
+.bd-logo-dd23t a {
+    color: #fff;
+}
+
+.ct-odr {
+    background-color: #f5a848;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    width: 100%
+}
+
+.bd-logo-dd23t h1 {
+    margin: 10px 0px;
+}
+
+.rsp1 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.manp-sec-img {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.man-rt-cont {
+    padding: 0px 15px 0px 0px;
+}
+
+.p-cin-dd23t {
+    list-style-image: url(../img/14.png);
+    font-size: 19px;
+}
+
+.sstp {
+    background-color: #efefef;
+    border-left: 4px solid #992626;
+    padding: 20px;
+    color: #ff0000;
+    margin-bottom: 40px;
+}
+
+.mbt {
+    margin-bottom: 40px;
+}
+
+.mn-sec-dd23t {
+    background-color: #efefef
+}
+
+.resp {
+    width: 100%;
+    height: auto;
+}
+
+.st-ps-ptd {
+    background-color: #992626;
+    padding: 30px;
+}
+
+.rsh {
+    background-color: #992626;
+    padding: 30px 0px;
+}
+
+.rsh-ct-ptd {
+    padding: 0px 30px;
+}
+
+.itg-box-ptd {
+    background-color: #efefef;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.bus-cot-ptd {
+    padding: 40px;
+}
+
+.bus-off-ptd {
+    background-color: #992626;
+    padding: 30px 0px;
+}
+
+.bgc {
+    background-color: #efefef;
+}
+
+.ohr-i-ptd {
+    padding: 0px 20px;
+}
+
+.resp-p {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.my-bc {
+    background-color: #992626;
+    padding: 40px 0px;
+}
+
+.mn-g {
+    background-color: #efefef;
+    padding: 40px 0px;
+}
+
+.mn-ct {
+    padding: 40px;
+}
+
+.mn-back-ptd {
+    border: 2px solid #777;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.f-toor {
+    background-color: #992626;
+    padding: 30px 0px;
+}
+
+.ct-fot a {
+    color: #fff;
+}
+
+.ordrt-resp {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.fdre {
+    max-width: 800px;
+}
+
+.panel {
+    min-height: calc(100vh - 200px)
+}
+
+/*form*/
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+@media only screen and (max-width:480px) {
+    h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .bx-dd23t {
+        padding: 0px 20px
+    }
+    .mmbt {
+        margin-bottom: 30px;
+    }
+    .bus-cot-ptd {
+        padding: 20px;
+    }
+    .d-nn {
+        display: none;
+    }
+    .bd-logo-dd23t h1 {
+        padding: 20px;
+        margin: 0px 0px;
+        text-align: center;
+    }
+    .mbs-cntr {
+        text-align: center
+    }
+    .mn-ct {
+        padding: 10px;
+    }
+    .rsh-ct-ptd {
+        padding: 0px 6px;
+    }
+    .ct-odr {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .bx-dd23t {
+        max-width: 1100px;
+        margin: auto;
+        padding: 10px;
+    }
+    .fd-dd23t {
+        display: flex;
+    }
+    .js-1 {
+        justify-content: space-between;
+    }
+    .js-2 {
+        justify-content: space-around
+    }
+    .a-cntr {
+        align-items: center;
+    }
+    .man-rt-cont {
+        width: 50%;
+    }
+    .manp-sec-img {
+        width: 50%;
+    }
+    .rsh-rght {
+        width: 35%;
+    }
+    .rsh-ct-ptd {
+        width: 65%;
+    }
+    .itg-box-ptd {
+        width: 33%;
+    }
+    .bus-img-ptd {
+        width: 50%
+    }
+    .bus-cot-ptd {
+        width: 50%;
+    }
+    .p-bx-dd23t-c {
+        width: 33%
+    }
+    .mn-img {
+        width: 30%;
+    }
+    .mn-ct {
+        width: 70%
+    }
+}
